@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grade Luana</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: helvetica;
+            color: white;
+            text-align:center;
+            line-height:100px;
+            font-size: 3em;
+        }
+        .row > div {
+            height: 100px;
+        }
+        .bg-black {
+            background-color: black;
+        }
+        .bg-dark-gray {
+            background-color: #666;
+        }
+        .bg-light-gray {
+            background-color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col bg-black">01</div>
+            <div class="col bg-dark-gray">02</div>
+            <div class="col bg-light-gray">03</div>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+file:///C:/Users/Luana/OneDrive/Documentos/NetBeansProjects/atividade_2/src/main/webapp/tarefa1.html
