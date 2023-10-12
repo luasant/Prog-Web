@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Informações do Curso TADS</title>
+    <style>
+        body {
+            margin: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            margin-right: 80px;
+            whidt: 12px;
+        }
+        h1 {
+            margin-left: 2em;
+        }
+        p {
+            margin-left: 6em; 
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="data:image/png;base64,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"/>
+        <h1 style="font-size:35px; font-weight: bold">TADS - Tecnologia em Análise e <br> Desenvolvimento de Sistemas (TADS)</h1>
+        </div>
+   <h1>Bem-vindo à nossa página inicial!</h1>
+    <p><a href="cadastro.html">Cadastro do Aluno</a></p>
+    <p><a href="paginaTADS.html">Informações do Curso TADS</a></p>
+        </div>
+    </div>
+</body>
+</html>
