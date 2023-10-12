@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Aluno - Matrícula</title>
+    <style>
+        /* Estilo para o fundo azul claro */
+        body {
+            background-color: lightblue;
+        }
+        /* Estilo para o cabeçalho vermelho */
+        .header {
+            color: red;
+            text-align: center;
+            padding: 10px;
+        }
+        /* Estilo para a linha azul de divisória */
+        .divider {
+            background-color: blue;
+            height: 2px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        /* Estilo para os rótulos */
+        label {
+            display: block;
+            margin: 10px;
+            color: black;
+        }
+        /* Estilo para os inputs */
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 5px;
+            margin: 5px 0;
+        }
+        /* Estilo para os hints */
+        .hint {
+            font-size: 12px;
+            color: gray;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Cadastro de Aluno - Matricula</h1>
+    </div>
+    <div class="divider"></div>
+    <div class="input-container">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+    </div>
+    <div class="input-container">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+        <p class="hint">Exemplo: exemplo@exemplo.com.br</p>
+    </div>
+    <div class="input-container">
+        <label for="telefone">Telefone</label>
+    <div>
+        <input type="text" id="codigo_area" name="codigo_area" style="width: 65px; text-align: center;">
+        <input type="text" id="telefone" name="telefone" style="width: 90px;">
+    </div>
+    <p class="hint" style="color: darkblue; display: inline-block; margin-right: 4px;">Codigo de area</p>
+        <p class="hint" style="color: darkblue; display: inline-block;">Telefone</p>
+    </div>
+    <div class="input-container">
+        <label for="disciplinas">Disciplinas a cursar</label>
+        <select id="disciplinas" name="disciplinas">
+            <option value="disciplina1">PROGRAMAÇÃO WEB</option>
+            <option value="disciplina2">ESTRUTURA DE DADOS</option>
+            <option value="disciplina3">SISTEMAS OPERACIONAIS</option>
+            <option value="disciplina4">MATEMATICA</option>
+            <option value="disciplina5">CONTABILIDADE</option>
+
+        </select>
+    </div>
+    
+    <a href="index.html" class="home-link">Página Inicial</a>
+</body>
+</html>
+
+file:///C:/Users/Luana/OneDrive/Documentos/NetBeansProjects/index/src/main/webapp/cadastro.html
